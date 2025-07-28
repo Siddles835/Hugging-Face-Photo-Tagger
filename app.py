@@ -5,7 +5,7 @@ import io
 import time
 import json
 
-API_URL = "YOUR API"
+API_URL = "YOUR API KEY"
 headers = {
     "YOUR HEADERS"
 }
@@ -56,7 +56,6 @@ if uploaded_file:
         max_retries = 5
         output = query_huggingface(image_bytes)
 
-        # Retry logic for model loading
         while isinstance(output, dict) and output.get("status") == "loading" and retry_count < max_retries:
             st.info(f"⏳ {output.get('message', 'Model is still loading')}. Retrying in 5 seconds...")
             time.sleep(5)
