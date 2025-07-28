@@ -5,10 +5,9 @@ import io
 import time
 import json
 
-API_URL = "https://api-inference.huggingface.co/models/google/vit-base-patch16-224"
+API_URL = "YOUR API"
 headers = {
-    "Authorization": "Bearer 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",
-    "Content-Type": "image/jpeg"
+    "YOUR HEADERS"
 }
 
 def query_huggingface(image_bytes):
@@ -46,7 +45,7 @@ uploaded_file = st.file_uploader(" Upload an image (JPG or PNG)", type=["jpg", "
 
 if uploaded_file:
     image = Image.open(uploaded_file).convert("RGB")
-    st.image(image, caption="🖼️ Uploaded Image", use_column_width=True)
+    st.image(image, caption="Uploaded Image", use_column_width=True)
 
     with st.spinner(" Analyzing image with Hugging Face model..."):
         buf = io.BytesIO()
