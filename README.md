@@ -16,10 +16,11 @@ requirements.txt - The necessary libraries that we need to import related to AI,
 
 # Step by step guide
 1. **Clone the Repository**
+   
 git clone https://github.com/yourusername/flawed-photo-tagger.git
 cd hugging-face-photo-tagger
 
-2. **Install Dependencies**
+3. **Install Dependencies**
 
 pip install -r requirements.txt
 
