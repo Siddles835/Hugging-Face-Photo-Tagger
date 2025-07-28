@@ -16,7 +16,6 @@ requirements.txt - The necessary libraries that we need to import related to AI,
 
 # Step by step guide
 1. **Clone the Repository**
-   ```bash
 git clone https://github.com/yourusername/flawed-photo-tagger.git
 cd hugging-face-photo-tagger
 
