@@ -18,6 +18,7 @@ requirements.txt - The necessary libraries that we need to import related to AI,
 1. **Clone the Repository**
    
 git clone YOUR GIT URL
+
 cd hugging-face-photo-tagger
 
 3. **Install Dependencies**
