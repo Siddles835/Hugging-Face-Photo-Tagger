@@ -21,7 +21,7 @@ git clone YOUR GIT URL
 
 cd hugging-face-photo-tagger
 
-3. **Install Dependencies**
+2. **Install Dependencies**
 
 pip install -r requirements.txt
 
